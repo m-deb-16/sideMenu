@@ -83,6 +83,10 @@ a {
   cursor: pointer;
 }
 
+.home {
+  height: 100vh;
+}
+
 .swipe {
   display: flex;
   justify-content: center;

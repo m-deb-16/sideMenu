@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const Home = ({ setIsActive }) => {
   return (
-    <div onClick={() => setIsActive(false)}>
+    <div className="home" onClick={() => setIsActive(false)}>
       <Swiper
         className="swipe"
         autoplay={{
