@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdHome } from "react-icons/io";
 import { Link } from "react-router-dom";
 
-const sideMenu = ({ isActive, setIsActive }) => {
+const sideMenu = ({ isActive }) => {
   return (
     <>
       <div className={isActive ? "SideMenu active" : "SideMenu"}>

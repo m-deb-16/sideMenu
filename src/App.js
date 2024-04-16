@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route
               exact
-              path="/Home"
+              path="/"
               element={<Home setIsActive={setIsActive} />}
             />
           </Routes>
